@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is lightweight and unopinionated which gives it a lot of flexibilty but also means it does very little out of the box. It also abstracts away common tasks that can be verbose.
+
 - [ ] Describe Middleware?
+
+Middleware allows you to operate on the request and response objects.
+
 
 - [ ] Describe a Resource?
 
+A resource is a piece of data that can be stored on a server for a client to access.
+
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+APIs can return a status code to let the clients know if the request was successful. Status codes are broken up into 5 levels, successful responses range from 200-299.
+
 - [ ] How can we partition our application into sub-applications?
+
+Express allows you to break up your application using routers. Routers can be used to serve your single page application or your api.
 
 ## Minimum Viable Product
 
